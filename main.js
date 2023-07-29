@@ -1,12 +1,12 @@
-const Cargo = function(name, titulo) {
-    this.name = name;
-    this.titulo = titulo;
-    this.apresentacao = function() {
-        console.log(`Olá, meu nome é ${this.name} e sou o ${this.titulo}.`)
+function Cargo(nome, titulo) {
+    this.nome = nome;
+    this.titulo = titulo
     }
-}
 
-const funcionario = new Cargo('Jose', 'gerente');
-funcionario.name;
-funcionario.titulo;
-funcionario.apresentacao();
+var jose = new Cargo("Jose Silva", "Grerente");
+var marcia = new Cargo("Marcia Oliveira", "Supervisora");
+var luiz = new Cargo("Luiz Fernando", "Vendedor")
+
+console.log(jose);
+console.log(marcia);
+console.log(luiz);
